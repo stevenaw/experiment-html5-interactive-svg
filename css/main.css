@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+svg {
+  height: 100%;
+}
+
+svg text.piece {
+  cursor: move;
+}
+
+svg text {
+  font: bold 1px sans-serif;
+}
+
+svg pattern rect.dark-square {
+  fill: rgba(159, 188, 191, 0.4);
+}
+
+svg pattern rect.light-square {
+  fill: rgba(80, 34, 255, 0.8);
+}
